@@ -8,15 +8,15 @@ import java.io.IOException;
 import java.net.URL;
 import javax.imageio.ImageIO;
 import javax.swing.*;
-public class DeakeNeo extends JFrame implements ActionListener {
+public class  BackgroundChanger extends JFrame implements ActionListener {
     private JPanel mainPanel;
     private JLabel titleLabel;
     private JTextField searchTextField;
     private JButton searchButton;
     private JButton backgroundButton;
     private JLabel backgroundImage;
-    public DeakeNeo() {
-        super("Dekheneo App ");
+    public BackgroundChanger() {
+        super(" BackgroundChanger ");
         setLayout(new BorderLayout());
         mainPanel = new JPanel();
         mainPanel.setBackground(Color.LIGHT_GRAY);
@@ -73,4 +73,4 @@ public class DeakeNeo extends JFrame implements ActionListener {
 
     }
 
-// By Team_ASCII (RASHID AHAMED MUFTI And Rezaur Rahman Ratul )
+// By Team_ASCII (Abu Henaf RASHID AHAMED MUFTI And Rezaur Rahman Ratul )
